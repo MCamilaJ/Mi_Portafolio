@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <title>Mi portafolio</title>
+</head>
+
+<body class="fondo">
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid mx-4">
+                <a class="navbar-brand" href="index.html">
+                    <h1 class="">FossilCode</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mx-4" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item border-end">
+                            <a class="nav-link" aria-current="page" href="index.html">
+                                <h5>Inicio</h5>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">
+                                <h5>Proyectos</h5>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <ul class="navbar-nav d-flex flex-row gap-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="https://github.com/MCamilaJ"
+                                    target="_blank"><i class="fa-brands fa-github-alt fa-2xl"
+                                        style="color: #3498db;"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="mailto:camilad17@outlook.es" target="_blank"><i
+                                        class="fa-solid fa-envelope fa-xl" style="color: #3498db;"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.linkedin.com/in/camila-duran-g/"
+                                    target="_blank"><i class="fa-brands fa-linkedin-in fa-xl"
+                                        style="color: #3498db;"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="d-flex flex-column justify-content-center align-items-center text-center mt-5">
+        <!-- Descripcion -->
+        <div class="container">
+            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center text-center w-auto">
+                <div class="d-flex flex-column justify-content-center align-items-center col-lg-4">
+                    <img src="./img/home/camila-fondo.png" alt="camila"
+                        class="img-camila img-fluid border-bottom rounded">
+                    <h3 class="mt-3">Camila (Cami) Dev <i class="fa-solid fa-bugs fa-2xl" style="color: #3498db;"></i>
+                    </h3>
+                </div>
+                <div class="h-100 col-lg-8 border border-start-0">
+                    <p class="p-5">
+                        Hola, soy Camila y soy desarrolladora. Llevo poco más de un año en este mundo, pero el tiempo no
+                        define lo mucho que me
+                        apasiona este camino, el aprendizaje constante y la resolución de problemas.
+                        Siempre he sido curiosa y disfruto enfrentar nuevos desafíos que me permiten crecer y aportar
+                        con lo que sé. <br>
+                        Para mí, cada reto es una oportunidad para aprender, y cada línea de código, <span
+                            class="fst-italic"></span>una huella que puede convertirse en una
+                        solución con impacto</span>.
+                        Me proyecto construyendo una carrera sólida, guiada por el conocimiento y el amor que pongo en
+                        cada nueva aventura
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Img huellas -->
+        <div class="container">
+            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center text-center">
+                <img src="./img/home/huellas.png" alt="huellas" class="img-fluid rounded" style="max-width: 200px;">
+            </div>
+        </div>
+        <!-- Habilidades -->
+        <div class="container my-5">
+            <h1>Mis habilidades</h1>
+            <div class="row gx-5 mt-5">
+                <div class="col">
+                    <h3 class="p-3 rounded bg-danger bg-gradient">FrontEnd <i class="fa-solid fa-palette"
+                            style="color: #ffffff;"></i></h3>
+                    <div style="grid-template-columns: 1fr 1fr;" class="d-grid gap-3">
+                        <p class="front p-2 border rounded  m-1">Next Js</p>
+                        <p class="front p-2 border rounded m-1 ">React Native</p>
+                        <p class="front p-2 border rounded m-1 ">Css</p>
+                        <p class="front p-2 border rounded m-1 ">Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3 class="p-3 rounded bg-primary bg-gradient">Backend <i class="fa-solid fa-screwdriver-wrench"
+                            style="color: #ffffff;"></i></h3>
+                    <div style="grid-template-columns: 1fr 1fr;" class="d-grid gap-3">
+                        <p class="back p-2 border rounded">Php</p>
+                        <p class="back p-2 border rounded">.NET</p>
+                        <p class="back p-2 border rounded">API</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3 class="p-3 rounded bg-success bg-gradient">Base de datos <i class="fa-solid fa-database"
+                            style="color: #ffffff;"></i></h3>
+                    <div style="grid-template-columns: 1fr 1fr;" class="d-grid gap-3">
+                        <p class="bd p-2 border rounded">MySql</p>
+                        <p class="bd p-2 border rounded">Mongo DB</p>
+                        <p class="bd p-2 border rounded">Sql Server</p>
+                        <p class="bd p-2 border rounded">Postgres</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid d-flex justify-content-center align-items-center flex-column gap-3 mt-5 mb-2">
+            <p class="text-center">© 2025 Camila Dev - 3196244642</p>
+            <p class="text-center">Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

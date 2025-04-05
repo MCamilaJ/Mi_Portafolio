@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Index y proyectos */
+.fondo {
+  font-family: Fira Code, monospace;
+  color: white;
+  background-image: url(../img/home/fondo.jpg);
+  background-size: cover;
+  /*  background-color: #212f3c; */
+}
+
+h1 {
+  color: #45a6e7;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  text-align: center;
+}
+
+.img-camila {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.img-huellas {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Hover para habilidades */
+.front:hover {
+  background-color: #8b1e1eab;
+}
+
+.back:hover {
+  background-color: #085283ab;
+}
+
+.bd:hover {
+  background-color: #088308ab;
+}
+
+/* Invertir color del menú responsive */
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* Media query */
+@media (max-width: 767.98px) {
+  .card {
+    width: 100% !important;
+  }
+}

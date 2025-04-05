@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <title>Mis proyectos</title>
+</head>
+
+<body class="fondo">
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid mx-4">
+                <a class="navbar-brand" href="index.html">
+                    <h1 class="">FossilCode</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mx-4" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link border-end" aria-current="page" href="index.html">
+                                <h5>Inicio </h5>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">
+                                <h5>Proyectos</h5>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <ul class="navbar-nav d-flex flex-row gap-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="https://github.com/MCamilaJ"
+                                    target="_blank"><i class="fa-brands fa-github-alt fa-2xl"
+                                        style="color: #3498db;"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="mailto:camilad17@outlook.es"><i
+                                        class="fa-solid fa-envelope fa-xl" style="color: #3498db;"
+                                        target="_blank"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.linkedin.com/in/camila-duran-g/"
+                                    target="_blank"><i class="fa-brands fa-linkedin-in fa-xl"
+                                        style="color: #3498db;"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container d-flex flex-column flex-md-row flex-wrap justify-content-center mt-5 gap-4">
+            <!-- Proyecto 1 -->
+            <div class="card" style="width: 18rem;">
+                <img src="./img/proyectos/proyecto-1.PNG" class="card-img-top" alt="novahold">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Landing Page</h5>
+                    <p class="card-text">
+                        Desarrollo de landing page para empresa fintech, utilizando Next.js y Tailwind CSS.
+                    </p>
+                    <button type="button" class="btn btn-primary" id="btn_modal_proyecto_1">
+                        Visitar
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="ventana_modal_proyecto_1" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content ">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5 text-primary" id="exampleModalLabel">Novahold</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe id="video_proyecto_1" width="560" height="315"
+                                            src="https://www.youtube.com/embed/uMBt6jeMxZk?si=A7frGUb2mPUO5f3I"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Proyecto 2 -->
+            <div class="card" style="width: 18rem;">
+                <img src="./img/proyectos/proyecto-2.PNG" class="card-img-top" alt="sanam">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Página Web</h5>
+                    <p class="card-text">
+                        Desarrollo de página web para empresa de café, utilizando Next.js y Tailwind CSS.
+                    </p>
+                    <button type="button" class="btn btn-primary" id="btn_modal_proyecto_2">
+                        Visitar
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="ventana_modal_proyecto_2" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content ">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5 text-primary" id="exampleModalLabel">Sanam</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe id="video_proyecto_2" width="560" height="315"
+                                            src="https://www.youtube.com/embed/wCHSAJ3Sjp4?si=5FrtARfLlIeI2E-1"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Proyecto 3 -->
+            <div class="card" style="width: 18rem;">
+                <img src="./img/proyectos/proyecto-3.PNG" class="card-img-top" alt="compan">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Sistema de información</h5>
+                    <p class="card-text">
+                        Desarrollo de un sistema de información para la secretaria de Agricultura, utilizando
+                        CodeIgniter y AdminLTE.
+                    </p>
+                    <button type="button" class="btn btn-primary" id="btn_modal_proyecto_3">
+                        Visitar
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="ventana_modal_proyecto_3" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content ">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5 text-primary" id="exampleModalLabel">Compan</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe id="video_proyecto_3" width="560" height="315"
+                                            src="https://www.youtube.com/embed/Tw4BtmriqhM?si=vHqLC_LJe0O3DGqm"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid d-flex justify-content-center align-items-center flex-column gap-3 mt-5 mb-2">
+            <p class="text-center">© 2025 Camila Dev - 3196244642</p>
+            <p class="text-center">Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
