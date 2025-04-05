@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 /* Index y proyectos */
 .fondo {
   font-family: Fira Code, monospace;
